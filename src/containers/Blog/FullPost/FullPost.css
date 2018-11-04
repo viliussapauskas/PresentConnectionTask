@@ -1,0 +1,56 @@
+.FullPost {
+    width: 60%;
+    margin: 40px auto;
+    border: 1px solid #eee;
+    box-shadow: 0 2px 3px #ccc;
+    text-align: center;
+    min-width: 500px;
+}
+
+.Edit label {
+    display: block;
+    color: grey;
+}
+
+.Edit button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #fa923f;
+}
+.title{
+    margin: 40px;
+    font-family: 'Cinzel', serif; 
+    font-weight: bolder;
+} 
+
+.body {
+    margin: 30px;
+    font-family: 'Kite One', sans-serif;
+    font-size: 25px;  
+}  
+
+.loader {
+    border: 16px solid #f3f3f3; 
+    border-top: 16px solid #fa923f;
+    border-radius: 50%;
+    width: 120px;
+    height: 120px;
+    margin: 10rem auto;
+    animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}  
+
+hr.style-four {
+    width: 70%;
+    height: 8px;
+}
+hr.style-three {
+    width:80%;
+    height: 8px;
+}
